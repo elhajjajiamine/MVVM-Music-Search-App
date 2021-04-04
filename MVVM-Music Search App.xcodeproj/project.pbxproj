@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F6B0BE2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0BD2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift */; };
+		10F6B0C02619FF930066FEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0BF2619FF930066FEBF /* ContentView.swift */; };
+		10F6B0C22619FF940066FEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B0C12619FF940066FEBF /* Assets.xcassets */; };
+		10F6B0C52619FF940066FEBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B0C42619FF940066FEBF /* Preview Assets.xcassets */; };
+		10F6B0D02619FF940066FEBF /* MVVM_Music_Search_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0CF2619FF940066FEBF /* MVVM_Music_Search_AppTests.swift */; };
+		10F6B0DB2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0DA2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F6B0CC2619FF940066FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F6B0B22619FF930066FEBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F6B0B92619FF930066FEBF;
+			remoteInfo = "MVVM-Music Search App";
+		};
+		10F6B0D72619FF940066FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F6B0B22619FF930066FEBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F6B0B92619FF930066FEBF;
+			remoteInfo = "MVVM-Music Search App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F6B0BA2619FF930066FEBF /* MVVM-Music Search App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Music Search App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F6B0BD2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Music_Search_AppApp.swift; sourceTree = "<group>"; };
+		10F6B0BF2619FF930066FEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10F6B0C12619FF940066FEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F6B0C42619FF940066FEBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10F6B0C62619FF940066FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F6B0CB2619FF940066FEBF /* MVVM-Music Search AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Music Search AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F6B0CF2619FF940066FEBF /* MVVM_Music_Search_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Music_Search_AppTests.swift; sourceTree = "<group>"; };
+		10F6B0D12619FF940066FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F6B0D62619FF940066FEBF /* MVVM-Music Search AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Music Search AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F6B0DA2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Music_Search_AppUITests.swift; sourceTree = "<group>"; };
+		10F6B0DC2619FF940066FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F6B0B72619FF930066FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0C82619FF940066FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0D32619FF940066FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F6B0B12619FF930066FEBF = {
+			isa = PBXGroup;
+			children = (
+				10F6B0BC2619FF930066FEBF /* MVVM-Music Search App */,
+				10F6B0CE2619FF940066FEBF /* MVVM-Music Search AppTests */,
+				10F6B0D92619FF940066FEBF /* MVVM-Music Search AppUITests */,
+				10F6B0BB2619FF930066FEBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F6B0BB2619FF930066FEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B0BA2619FF930066FEBF /* MVVM-Music Search App.app */,
+				10F6B0CB2619FF940066FEBF /* MVVM-Music Search AppTests.xctest */,
+				10F6B0D62619FF940066FEBF /* MVVM-Music Search AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F6B0BC2619FF930066FEBF /* MVVM-Music Search App */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B0BD2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift */,
+				10F6B0BF2619FF930066FEBF /* ContentView.swift */,
+				10F6B0C12619FF940066FEBF /* Assets.xcassets */,
+				10F6B0C62619FF940066FEBF /* Info.plist */,
+				10F6B0C32619FF940066FEBF /* Preview Content */,
+			);
+			path = "MVVM-Music Search App";
+			sourceTree = "<group>";
+		};
+		10F6B0C32619FF940066FEBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B0C42619FF940066FEBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10F6B0CE2619FF940066FEBF /* MVVM-Music Search AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B0CF2619FF940066FEBF /* MVVM_Music_Search_AppTests.swift */,
+				10F6B0D12619FF940066FEBF /* Info.plist */,
+			);
+			path = "MVVM-Music Search AppTests";
+			sourceTree = "<group>";
+		};
+		10F6B0D92619FF940066FEBF /* MVVM-Music Search AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B0DA2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift */,
+				10F6B0DC2619FF940066FEBF /* Info.plist */,
+			);
+			path = "MVVM-Music Search AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F6B0B92619FF930066FEBF /* MVVM-Music Search App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F6B0DF2619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search App" */;
+			buildPhases = (
+				10F6B0B62619FF930066FEBF /* Sources */,
+				10F6B0B72619FF930066FEBF /* Frameworks */,
+				10F6B0B82619FF930066FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-Music Search App";
+			productName = "MVVM-Music Search App";
+			productReference = 10F6B0BA2619FF930066FEBF /* MVVM-Music Search App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10F6B0CA2619FF940066FEBF /* MVVM-Music Search AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F6B0E22619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search AppTests" */;
+			buildPhases = (
+				10F6B0C72619FF940066FEBF /* Sources */,
+				10F6B0C82619FF940066FEBF /* Frameworks */,
+				10F6B0C92619FF940066FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F6B0CD2619FF940066FEBF /* PBXTargetDependency */,
+			);
+			name = "MVVM-Music Search AppTests";
+			productName = "MVVM-Music Search AppTests";
+			productReference = 10F6B0CB2619FF940066FEBF /* MVVM-Music Search AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10F6B0D52619FF940066FEBF /* MVVM-Music Search AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F6B0E52619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search AppUITests" */;
+			buildPhases = (
+				10F6B0D22619FF940066FEBF /* Sources */,
+				10F6B0D32619FF940066FEBF /* Frameworks */,
+				10F6B0D42619FF940066FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F6B0D82619FF940066FEBF /* PBXTargetDependency */,
+			);
+			name = "MVVM-Music Search AppUITests";
+			productName = "MVVM-Music Search AppUITests";
+			productReference = 10F6B0D62619FF940066FEBF /* MVVM-Music Search AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F6B0B22619FF930066FEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					10F6B0B92619FF930066FEBF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					10F6B0CA2619FF940066FEBF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 10F6B0B92619FF930066FEBF;
+					};
+					10F6B0D52619FF940066FEBF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 10F6B0B92619FF930066FEBF;
+					};
+				};
+			};
+			buildConfigurationList = 10F6B0B52619FF930066FEBF /* Build configuration list for PBXProject "MVVM-Music Search App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F6B0B12619FF930066FEBF;
+			productRefGroup = 10F6B0BB2619FF930066FEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F6B0B92619FF930066FEBF /* MVVM-Music Search App */,
+				10F6B0CA2619FF940066FEBF /* MVVM-Music Search AppTests */,
+				10F6B0D52619FF940066FEBF /* MVVM-Music Search AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F6B0B82619FF930066FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B0C52619FF940066FEBF /* Preview Assets.xcassets in Resources */,
+				10F6B0C22619FF940066FEBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0C92619FF940066FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0D42619FF940066FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F6B0B62619FF930066FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B0C02619FF930066FEBF /* ContentView.swift in Sources */,
+				10F6B0BE2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0C72619FF940066FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B0D02619FF940066FEBF /* MVVM_Music_Search_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B0D22619FF940066FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B0DB2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F6B0CD2619FF940066FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F6B0B92619FF930066FEBF /* MVVM-Music Search App */;
+			targetProxy = 10F6B0CC2619FF940066FEBF /* PBXContainerItemProxy */;
+		};
+		10F6B0D82619FF940066FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F6B0B92619FF930066FEBF /* MVVM-Music Search App */;
+			targetProxy = 10F6B0D72619FF940066FEBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10F6B0DD2619FF940066FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10F6B0DE2619FF940066FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10F6B0E02619FF940066FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM-Music Search App/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MVVM-Music Search App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10F6B0E12619FF940066FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM-Music Search App/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MVVM-Music Search App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10F6B0E32619FF940066FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "MVVM-Music Search AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-Music Search App.app/MVVM-Music Search App";
+			};
+			name = Debug;
+		};
+		10F6B0E42619FF940066FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "MVVM-Music Search AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-Music Search App.app/MVVM-Music Search App";
+			};
+			name = Release;
+		};
+		10F6B0E62619FF940066FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "MVVM-Music Search AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-Music Search App";
+			};
+			name = Debug;
+		};
+		10F6B0E72619FF940066FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "MVVM-Music Search AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.MVVM-Music-Search-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-Music Search App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F6B0B52619FF930066FEBF /* Build configuration list for PBXProject "MVVM-Music Search App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B0DD2619FF940066FEBF /* Debug */,
+				10F6B0DE2619FF940066FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F6B0DF2619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B0E02619FF940066FEBF /* Debug */,
+				10F6B0E12619FF940066FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F6B0E22619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B0E32619FF940066FEBF /* Debug */,
+				10F6B0E42619FF940066FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F6B0E52619FF940066FEBF /* Build configuration list for PBXNativeTarget "MVVM-Music Search AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B0E62619FF940066FEBF /* Debug */,
+				10F6B0E72619FF940066FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F6B0B22619FF930066FEBF /* Project object */;
+}
