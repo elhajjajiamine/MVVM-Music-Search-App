@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10076F77261B6A140011F95C /* ArtworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10076F76261B6A140011F95C /* ArtworkLoader.swift */; };
 		10F6B0BE2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0BD2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift */; };
 		10F6B0C02619FF930066FEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0BF2619FF930066FEBF /* ContentView.swift */; };
 		10F6B0C22619FF940066FEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B0C12619FF940066FEBF /* Assets.xcassets */; };
 		10F6B0C52619FF940066FEBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B0C42619FF940066FEBF /* Preview Assets.xcassets */; };
 		10F6B0D02619FF940066FEBF /* MVVM_Music_Search_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0CF2619FF940066FEBF /* MVVM_Music_Search_AppTests.swift */; };
 		10F6B0DB2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0DA2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift */; };
+		10F6B0EC261A07A00066FEBF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0EB261A07A00066FEBF /* DataModel.swift */; };
+		10F6B0F1261B47810066FEBF /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B0F0261B47810066FEBF /* SongListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10076F76261B6A140011F95C /* ArtworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLoader.swift; sourceTree = "<group>"; };
 		10F6B0BA2619FF930066FEBF /* MVVM-Music Search App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Music Search App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F6B0BD2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Music_Search_AppApp.swift; sourceTree = "<group>"; };
 		10F6B0BF2619FF930066FEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		10F6B0D62619FF940066FEBF /* MVVM-Music Search AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Music Search AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F6B0DA2619FF940066FEBF /* MVVM_Music_Search_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Music_Search_AppUITests.swift; sourceTree = "<group>"; };
 		10F6B0DC2619FF940066FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F6B0EB261A07A00066FEBF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		10F6B0F0261B47810066FEBF /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				10F6B0C12619FF940066FEBF /* Assets.xcassets */,
 				10F6B0C62619FF940066FEBF /* Info.plist */,
 				10F6B0C32619FF940066FEBF /* Preview Content */,
+				10F6B0EB261A07A00066FEBF /* DataModel.swift */,
+				10F6B0F0261B47810066FEBF /* SongListViewModel.swift */,
+				10076F76261B6A140011F95C /* ArtworkLoader.swift */,
 			);
 			path = "MVVM-Music Search App";
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F6B0C02619FF930066FEBF /* ContentView.swift in Sources */,
+				10F6B0F1261B47810066FEBF /* SongListViewModel.swift in Sources */,
+				10076F77261B6A140011F95C /* ArtworkLoader.swift in Sources */,
 				10F6B0BE2619FF930066FEBF /* MVVM_Music_Search_AppApp.swift in Sources */,
+				10F6B0EC261A07A00066FEBF /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
